@@ -10,7 +10,7 @@ Python 3.9
 
 ```python
 
-from model.imputers import DPPMissForest
+from models.imputers import DPPMissForest
 
 ddpp_mf = DPPMissForest(batch_size=100, max_iter=5, n_estimators=10)
 
